@@ -10,7 +10,7 @@ export default function FileUpload() {
     setLoading(true);
     let formData = new FormData();
     formData.append("image", e.target.files[0]);
-    fetch("http://localhost:8080/upload", {
+    fetch("https://devchallengersservice.onrender.com/upload", {
       method: "POST",
       headers: {
         "Contentt-Type": "multipart/form-data",
