@@ -1,0 +1,75 @@
+:root {
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-container {
+  padding: 2% ;
+}
+
+.card {
+  padding: 1%;
+  background-color: var(--glass);
+  border-radius: 7px;
+  box-shadow: var(--boxShadow);
+  text-align: center;
+}
+
+.image-upload {
+  padding: 1%;
+  border: 1px dashed green;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.onHover {
+  cursor: pointer;
+}
+
+.onHover:hover {
+  color: rgb(221, 3, 68);
+}
+
+.table-page-number {
+  margin-top: -60px !important;
+}
+
+.select-image-input {
+  padding: 1%;
+  display: none;
+}
+
+#image-upload-heading {
+  margin-top: 1%
+}
+
+#select-image {
+  margin-top: 2%
+}
+
+#loader-conatiner {
+  padding: 8%;
+  padding-top: 4%;
+}
+
+#loader-card {
+  padding: 3%;
+  padding-bottom: 4%;
+  background-color: var(--glass);
+  border-radius: 7px;
+  box-shadow: var(--boxShadow);
+}
+
+#loader-progressbar{
+  margin-top: 2%;
+}
+
+#loader-label {
+ font-size: 1rem;
+}
