@@ -173,7 +173,7 @@ export default function FileUpload() {
               </div>
             ))
           ) : (
-            <span>Empty</span>
+            <span></span>
           )}
         </div>
       </div>
