@@ -32,8 +32,45 @@
   cursor: pointer;
 }
 
+.file-details {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.file-image {
+  font-size: 1.2rem;
+}
+
+.index-no {
+  width: 5%;
+}
+
+.file-name {
+  width: 30%;
+}
+
+.file-view {
+  width: 7%;
+}
+
 .onHover:hover {
   color: rgb(221, 3, 68);
+}
+
+.card-margin {
+  padding: 1%;
+  padding-left: 30%;
+  border-radius: 7px;
+  border: 1px dashed green;
+}
+
+.view-file-card {
+  padding: 1%;
+  background-color: var(--glass);
+  border-radius: 7px;
+  box-shadow: var(--boxShadow);
+  margin-top: 2%;
+  text-align: left;
 }
 
 .table-page-number {
@@ -72,4 +109,22 @@
 
 #loader-label {
  font-size: 1rem;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  .card-margin {
+    padding-left: 1%;
+  }
+
+  .index-no {
+    width: 3%;
+  }
+  
+  .file-name {
+    width: 90%;
+  }
+  
+  .file-view {
+    width: 7%;
+  }
 }
